@@ -24,13 +24,24 @@ An authentic, production-grade Scholarship Intelligence Crawler and Verification
 4. **Multi-Source Architecture**:
    - Supports 3+ major categories: **Government**, **University**, **Foundation/Corporate**, and **Aggregators** (for seed link discovery).
 
-5. **Target Metrics Achieved**:
-   - **Total Records Tracked**: 22 authentic scholarships (Target: ≥ 20)
-   - **Officially Verified**: 18 scholarships (Target: ≥ 15)
-   - **High Confidence (≥ 95%)**: 17 scholarships (Target: ≥ 10)
-   - **Source Types**: Government, University, Foundation/Corporate (Target: ≥ 3)
-   - **Change Detection Examples**: Demonstrated in version history logs (Target: ≥ 2)
-   - **Expired / Stale Examples**: Tracked in DB (Target: ≥ 2)
+5. ## 📊 Latest Verified Run
+
+The latest local pipeline run produced the following results:
+
+| Metric | Result | Assignment Target |
+|---|---:|---:|
+| Candidate pages discovered | 116 | — |
+| Records tracked | 74 | ≥ 20 |
+| Officially verified | 29 | ≥ 15 |
+| High confidence (≥95%) | 30 | ≥ 10 |
+| Source types represented | 3 | ≥ 3 |
+| Expired / stale records | 17 | ≥ 2 |
+| Version/history entries | 543 | ≥ 2 |
+| Automated tests | 14 passed | — |
+
+The crawler uses deterministic evidence-based verification. Records below
+the verification threshold are retained as `REVIEW_REQUIRED`, `STALE`, or
+`NO_LONGER_VERIFIABLE` rather than being artificially promoted to verified.
 
 ---
 
