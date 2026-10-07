@@ -1,4 +1,4 @@
-# 🎓 EDXSO Scholarship Intelligence Crawler (Assignment 2)
+# 🎓 EDXSO Scholarship Intelligence Crawler
 
 An authentic, production-grade Scholarship Intelligence Crawler and Verification Engine designed for Indian students. Built strictly using open-source, non-paid tools with deterministic evidence scoring, change detection, and audit history.
 
