@@ -4,6 +4,10 @@ An authentic, production-grade Scholarship Intelligence Crawler and Verification
 
 ---
 
+# Live Demo
+
+https://edxso-scholarship-intelligence.onrender.com
+
 ## 🌟 Key Features & Requirements Compliance
 
 1. **Authentic Data Pipeline**:
